@@ -96,12 +96,12 @@ a:link {
 }
 
 .profile-container {
-	background-image: url('../pictures/fundo_fotoperfil1.png');
+	background-image: url('../pictures/fundo_fotoperfil2.png');
 	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 140px 0 20px 0;
+	padding: 120px 0 20px 0;
 	color: gray;
 }
 
@@ -164,16 +164,12 @@ a:link {
 	color: #ccc;
 }
 
-#portifolio-design {
-	width: 100vw;
+#portifolio {
+	width: 100%;
 	max-width: 960px;
-	margin: 10px 10px 0 0;
-	align-items: center ;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-decoration: none;
+	margin: 0 auto;
 }
+
 
 .portifolio-title {
 	font-size: 2rem;
@@ -183,43 +179,48 @@ a:link {
 }
 
 .portifolio-container{	
-	width: 100vw;
+
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap ;
 }
 
 .portifolio-item{
-	width: 100vw;
-	max-width: 420px;
+	width: 280px;
+	height: 175px;
 	cursor: pointer;
-	margin: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	justify-content: center;
+	
 }
 
 .descricao-portifolio {
 	width: 100vw;
 	max-width: 320px;
-	margin-top: 1px;
+	padding: 0px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 13px;
 	text-align: center;
 	color: black;
 	text-decoration: none;
-	margin-top: 5px;
+	margin-top: px;
 }
 
 .tabela {
 	align-items: center;
 	padding: 30px;
+	
 }
 
 .titulo-item {
-	
+
 	width: 100%;
 	height: 10px;
 	margin-top: 30px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	text-align: center;
 	font-family: Montserrat;
 	font-style: normal;
@@ -246,10 +247,11 @@ a:link {
 	align-items: center ;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
 	font-family: Montserrat;
 	font-style: normal;
-	font-weight: 600;
+
 	font-size: 18px;
 	color: #1F1F1F;
 		
@@ -271,21 +273,21 @@ a:link {
 		
 }
 
-P.blocktext {
+.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 6em
 }
 
 .descricao-quemsou {
-	Font size: 12px
+	Font size: 12px;
 	font-style: normal;
 	padding: 30px;
-	max-width: 600px;
+	max-width: 700px;
 	text-align: center;
 	letter-spacing: 5.5%
 	color: black;
-	Letter spacing: 5.5%
+	margin: auto;
 }
 
 .nav-footer {
@@ -295,6 +297,7 @@ P.blocktext {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
+	
 }
 
 .nav-redes {
@@ -308,16 +311,20 @@ P.blocktext {
 }
 
 .sobre__plataformas {
-    display: flex;
+	
+    width: 100vw;
+	display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-	list-style-type: none
+    justify-content: center;
+	list-style-type: none;
+	margin-right: 10px;
+	
 
-    margin-bottom: 1rem;
 }
+ 
 
 .link-redes {
-	list-style-type: none
+	list-style-type: none;
 	cursor: pointer;
 	margin: 20px;
 	display: flex;
